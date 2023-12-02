@@ -1,8 +1,6 @@
 use std::fs::File;
 use std::io::prelude::*;
 
-const COLOUR_TOTALS: [(&str, u32); 3] = [("red", 12), ("green", 13), ("blue", 14)];
-
 fn main() {
     println!("Day 2 Part 1");
     // open and parse file
@@ -18,7 +16,7 @@ fn get_part1_anwser(contents: &str) -> u32 {
     let _ = contents.lines().enumerate().for_each(|(index, ln)| {
         let check = is_possible(&ln);
         if check {
-            println!("passed {}", index as u32 + 1);
+            println!("is_possible {}", index as u32 + 1);
             t += index as u32 + 1;
         }
     });
