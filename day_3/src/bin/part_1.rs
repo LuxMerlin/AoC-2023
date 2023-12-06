@@ -1,7 +1,5 @@
 use std::fs::File;
 use std::io::prelude::*;
-use std::str::Chars;
-
 fn main() {
     println!("Day 3 Part 1");
     // open and parse file
