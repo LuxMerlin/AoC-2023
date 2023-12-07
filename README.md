@@ -12,7 +12,7 @@ This is my repo for Advent of Code 2023, hopefully but the end of it it will hav
 | 4   | ✅     | ❌     |                                                                     |
 | 5   | ❌     | ❌     | could not find a good way to do it , will try again at a later date |
 | 6   | ✅     | ✅     | this one was a nice change to pace                                  |
-|     |        |        |                                                                     |
+| 7   | ✅     | ❌     |                                                                     |
 |     |        |        |                                                                     |
 |     |        |        |                                                                     |
 |     |        |        |                                                                     |
